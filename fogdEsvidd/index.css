@@ -26,6 +26,16 @@
   border-radius: 20px;
 }
 
+.kep-2{
+  height: 250px;
+  width: 280px;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
+  top: 10px
+
+}
+
 .kepek-hatulja-3 {
   height: 290px;
   width: 300px;
@@ -36,6 +46,15 @@
   border-radius: 20px;
 }
 
+.kep-3{
+  height: 270px;
+  width: 280px;
+  border-radius: 20px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
 .kepek-hatulja-4 {
   height: 350px;
   width: 210px;
@@ -43,6 +62,14 @@
   position: relative;
   right: 360px;
   top: 440px;
+  border-radius: 20px;
+}
+.kep-4{
+  height: 330px;
+  width: 190px;
+  position: relative;
+  top: 10px;
+  left: 10px;
   border-radius: 20px;
 }
 
