@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Étlap</title>
-    <link rel="stylesheet" href="fogdMeg.css">
-    <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="stylesheet" href="./css/fogdMeg.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/etlap.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
       <img src="./kepek/fossÉsvidd.png" alt="" id="logo" />
       <ul>
@@ -34,7 +34,13 @@
             >Kosaram<img src="./kepek/cart.png" alt="" id="kicsiikon"
           /></a>
         </li>
-        <li style="background-color: rgb(175, 207, 161)" class="p">
+        <li
+          style="
+            background-color: rgb(175, 207, 161);
+            box-shadow: 0 0 5px 1px inset black;
+          "
+          class="p"
+        >
           <a href="etlap.html"
             >Étlap<img src="./kepek/menu.png" alt="" id="kicsiikon"
           /></a>
@@ -46,7 +52,18 @@
         </li>
       </ul>
     </nav>
+    <img src="./kepek/menu.png" alt="" id="meNu" />
 
-</body>
-
+    
+    <main>
+      <div id="divEtlap">
+        <br/>
+        <h1></h1>
+      </div>
+    </main>
+    <button type="button" id="hozzaadBtn">
+      <p>Hozzáadás</p>
+      <img src="./kepek/cart.png" alt="" style="width: 40px; height: 40px" />
+    </button>
+  </body>
 </html>
