@@ -1,0 +1,23 @@
+#cArt {
+  opacity: 10%;
+  height: 850px;
+  width: 850px;
+  left: -100px;
+  top: 200px;
+  position: absolute;
+  rotate: -8deg;
+}
+
+#divKosar {
+  background-color: rgb(202,218, 195);
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  top: -30px;
+  left: 0px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: black inset 0px 0px 30px;
+  color: #333;
+  line-height: 1.8;
+}
