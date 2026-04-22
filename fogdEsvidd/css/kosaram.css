@@ -9,10 +9,11 @@
 }
 
 #divKosar {
-  background-color: rgb(202,218, 195);
+  /* background-color: rgb(202,218, 195); */
+  background-image: linear-gradient(rgb(40, 107, 9), rgb(143, 194, 119), rgb(95, 152, 69));
   text-align: center;
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 600px;
   top: -30px;
   left: 0px;
   position: relative;
@@ -20,4 +21,20 @@
   box-shadow: black inset 0px 0px 30px;
   color: #333;
   line-height: 1.8;
+}
+
+#megsemBtn {
+  position: absolute;
+  display: flex;
+  background-color: rgb(95, 152, 69);
+  font-size: 21px;
+  border-radius: 15px;
+  width: 90px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  left: 90px;
+  bottom: 70px;
+  box-shadow: black 0px 10px 20px;
+  outline: none;
 }
