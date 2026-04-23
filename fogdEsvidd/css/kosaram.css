@@ -26,15 +26,46 @@
 #megsemBtn {
   position: absolute;
   display: flex;
-  background-color: rgb(95, 152, 69);
+  background-color: rgb(92, 204, 40);
   font-size: 21px;
   border-radius: 15px;
-  width: 90px;
+  width: 100px;
   height: 40px;
   justify-content: center;
   align-items: center;
-  left: 90px;
-  bottom: 70px;
+  left: 85px;
+  bottom: 100px;
   box-shadow: black 0px 10px 20px;
   outline: none;
+}
+
+#megsemBtn:hover {
+  box-shadow: black 0px 7px 10px;
+}
+
+#rendelesBtn {
+  position: absolute;
+  display: flex;
+  background-color: rgb(92, 204, 40);
+  font-size: 21px;
+  border-radius: 15px;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  left: 215px;
+  bottom: 100px;
+  box-shadow: black 0px 10px 20px;
+  outline: none;
+}
+
+#rendelesBtn:hover {
+  box-shadow: black 0px 7px 10px;
+}
+
+#kosarP {
+  font-size: 18px;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
 }
